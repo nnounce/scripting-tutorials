@@ -1,4 +1,4 @@
-import { nnounceDevice } from "jsr:@nnounce/scripting-api";
+import { nnounceDevice } from "jsr:@nnounce/scripting-sdk@~1.6.0";
 
 const device = await nnounceDevice().connectionPromise();
 

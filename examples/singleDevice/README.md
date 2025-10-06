@@ -15,7 +15,7 @@ When you set environment properties `HOSTNAME` and `API_KEY`, the code to connec
 
 ```typescript
 // import the function used to connect to nnounce device
-import { nnounceDevice } from "jsr:@nnounce/scripting-api";
+import { nnounceDevice } from "jsr:@nnounce/scripting-sdk@~1.6.0";
 
 // now you have two options, how to use the function: 
 
@@ -81,7 +81,7 @@ In that case, the code looks as follows:
 
 ```typescript
 // import the function used to connect to nnounce device
-import { connectDevice } from "jsr:@nnounce/scripting-api";;
+import { connectDevice } from "jsr:@nnounce/scripting-sdk@~1.6.0";;
 
 // now you have two options, how to use the function: 
 

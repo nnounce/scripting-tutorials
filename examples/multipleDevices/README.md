@@ -12,7 +12,7 @@ Every connected device needs to be assigned to separate variable.
 
 ```typescript
 // import the function used to connect to nnounce device
-import { connectDevice } from "jsr:@nnounce/scripting-api";
+import { connectDevice } from "jsr:@nnounce/scripting-sdk@~1.6.0";
 
 // now you have two options, how to use the function: 
 

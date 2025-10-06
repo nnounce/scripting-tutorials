@@ -16,7 +16,7 @@ You will also find guidelines for Visual Studio Code environment setup [there](s
   - There are also [examples for error handling and how to use try...catch statement](examples/tryCatch/README.md) in your code
 - **img** folder contains all images used in tutorials and guidelines
 
-Sources for scripting SDK can be found on Github at [https://github.com/nnounce/scripting-api](https://github.com/nnounce/scripting-api)
+Sources for scripting SDK can be found on Github at [https://github.com/nnounce/scripting-sdk](https://github.com/nnounce/scripting-sdk)
 
 ---
 

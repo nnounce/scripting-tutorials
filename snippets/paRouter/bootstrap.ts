@@ -1,6 +1,6 @@
 // bootstrap ts serves as a point to globally read and set environment variables.
 import { toFileUrl } from "std/path/mod.ts";
-import { nnounceDevice } from "jsr:@nnounce/scripting-api";
+import { nnounceDevice } from "jsr:@nnounce/scripting-sdk@~1.6.0";
 
 const entry = Deno.args[0];
 if (!entry) {
