@@ -16,7 +16,7 @@ This tutorial primarily targets `ampnode4` and `ionode4`, using input pin 1 as a
 
 Most control inputs can be used in two modes - analog or digital. 
 More details are available in the nnounce scripting documentation through the nnounce web UI.
-Further scripting information can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/scripting](https://docs.simpleway.cloud/nnounce/docs/scripting).
+Further scripting information can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/script](https://docs.simpleway.cloud/nnounce/docs/script).
 
 In this tutorial, we will use input pin 1 in digital mode. When set high, the device will play a local file (stored on the device). 
 A cooldown period will ensure the file plays at most once every 60 seconds.
@@ -30,7 +30,7 @@ To achieve this, we need to go through several steps:
 ## Before you start
 Ensure that you:
 - have an audio file in .mp3, .flac or .wav format
-- have an nnounce device connected, running and reachable from your computer
+- have an nnounce device connected, running and on a network reachable from your computer
 - have a method to trigger the input pin
 
 > Note: All steps of this tutorial assume you are logged in to the device.
@@ -46,7 +46,7 @@ You should now see your file listed in the **Files** tab.
 More details on file management can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/file-manager](https://docs.simpleway.cloud/nnounce/docs/file-manager).
 
 ## Creating and deploying a design
-To play a local file, the device needs a minimal design setup, including a Router component and and output - either Analog/Amplifier Out or Net TX or both.
+To play a local file, the device needs a minimal design setup, including a Router component and output - either Analog/Amplifier Out or Net TX or both.
 
 1. Navigate to the **Design Editor** tab
 2. Click the **Edit design** button if a design is already running
@@ -59,7 +59,7 @@ To play a local file, the device needs a minimal design setup, including a Route
 Your design should resemble this:
 ![Minimal design](../../img/examples/tutorial1/design.png)
 
-To hear playback, connect speakers to the device audio output or configure a stream to listen to it.
+To hear playback, connect speakers to the device audio output or configure a stream to listen to it. Please take caution and start with output volume set to minimum level. Add gradually and adjust to your needs.
 
 More details on Design Editor can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/designer-dsp-configuration](https://docs.simpleway.cloud/nnounce/docs/designer-dsp-configuration).
 
@@ -108,7 +108,7 @@ nnApi.controlInputs.digital(1) // use pin 1 in digital mode, pins are numbered f
 ```
 6. Click the **Save & Exit** button
 
-More details on scripting can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/scripting](https://docs.simpleway.cloud/nnounce/docs/scripting).
+More details on scripting can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/script](https://docs.simpleway.cloud/nnounce/docs/script).
 
 ## Triggering the input
 

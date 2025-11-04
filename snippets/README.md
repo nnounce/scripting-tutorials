@@ -51,7 +51,7 @@ To enable scripting on nnounce devices from Visual Studio Code, follow these ste
 
 ### Buttons
 Snippets focusing on control of device buttons. 
-These snippets are usable only on **micnode2h**, **micnode2g**, **micnode mini3** and **micnode mini6** variants, as other devices do not have any buttons.
+These snippets are usable only on **micnode2h** and **micnode2g**, as other devices do not have any buttons or do not support scripting.
 
 Following snippets are available:
 - Handle momentary button press

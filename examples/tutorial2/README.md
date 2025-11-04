@@ -94,7 +94,7 @@ async function sendGetRequest(variableValue: string) {
 ```
 4. Click the **Save & Exit** button
 
-More details on scripting can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/scripting](https://docs.simpleway.cloud/nnounce/docs/scripting).
+More details on scripting can be found in the nnounce configuration guide at [https://docs.simpleway.cloud/nnounce/docs/script](https://docs.simpleway.cloud/nnounce/docs/script).
 
 ## Triggering the input
 
